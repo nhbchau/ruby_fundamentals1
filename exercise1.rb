@@ -18,3 +18,14 @@ puts "Hello\t\tworld"
 puts "Hello\b\b\b\b\bgoodbye world"
 puts "Hello\rStart over world"
 puts "1. Hello\n2. World"
+
+(1 < 3) && (3 < 5)
+#true
+(1 > 1) && (2 > 2)
+#false
+(1 == 2) || (2 < 3)
+#true
+(1 != 2) || (2 < 3)
+#true
+(1 == 2) || (2 == 3)
+#false
